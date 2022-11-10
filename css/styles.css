@@ -342,11 +342,9 @@
     color: #212121;
 }
 .posicion{
-    position: absolute;
-    /* width: 181px; */
+    position: relative;    
     height: 19px;
-    left: 45px;
-    top: 319px;
+    top: 10px;
 
     font-family: 'Roboto';
     font-style: normal;
