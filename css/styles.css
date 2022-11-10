@@ -156,20 +156,19 @@
         color: #FFFFFF;
 
 }
-.boton{
-  
+.boton{  
     margin: 350px 670px 200px 669px;    
     display: inline-flex;
 }
-.tabla-features{
-    position: absolute;
-    width: 1170px;
-    height: 122px;
-    left: 215px;
-    top: 775px;
+.features{
+    margin-top: 80px;
+    text-align: center;
 }
+.lista-features {
+    display: inline-flex;
+    list-style: none;
+    text-align: center;
 
-.table-header{
     font-family: Roboto;
     font-size: 14px;
     font-weight: 700;
@@ -177,14 +176,9 @@
     letter-spacing: 0.03em;
     text-align: center;
 }
-
-.table-features-body{
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    text-align: left;
+.lista-titulos{
+    padding: 20px;
+    width: 270px;
 }
 .a-que-nos-dedicamos{
 
@@ -398,6 +392,140 @@
     height: 21px;
     left: 215px;
     top: 100px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+
+}
+
+/* portfolio */
+.button-port{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.button-port:hover{
+    background-color: #2196F3;
+    color: white;
+    cursor: pointer;
+    border: 3px solid black;
+}
+.button-port:focus {
+    background-color: #2196F3;
+    color: white;
+    cursor: pointer;
+}
+.button-portfolio-1{
+    height: 38px;
+    width: 73px;
+    border-radius: 4px;
+}
+.button-portfolio-2{
+    height: 38px;
+    width: 128px;
+    border-radius: 4px;
+}
+.button-portfolio-3{
+    height: 38px;
+    width: 145px;
+    border-radius: 4px;
+}
+.button-portfolio-4{
+    height: 38px;
+    width: 103px;
+    border-radius: 4px;
+}
+.button-portfolio-5{
+    height: 38px;
+    width: 130px;
+    border-radius: 4px;
+}
+
+.filter {
+    margin-top: 80px;
+    text-align: center;
+}
+.filter-item{
+    text-align: center;
+    list-style: none;
+    display: inline-block;    
+}
+.images-portfolio{
+    margin-top: 20px;
+    text-align: center;   
+}
+.portfolio-row{
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+}
+
+.nombre-proyecto{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.tipo-proyecto{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-left: 10px;
+    text-align: left;
+}
+.base-portfolio {
+
+   
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    background-color: #2F303A;
+}
+.estudio-web2-portfolio{
+
+    width: 145px;
+    height: 31px;
+    margin-left: 205px;
+    margin-top: 40px;
+
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: right;
+
+    color: #2196F3;
+
+}
+.direccion-portfolio {
+    
+    width: 231px;
+    height: 21px;
+    margin-left: 215px;
+    margin-top: 100px;
 
     font-family: 'Roboto';
     font-style: normal;
