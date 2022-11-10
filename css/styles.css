@@ -34,7 +34,7 @@
 
 .menu-nav{
     position: absolute;
-    width: 288px;
+    width: 290px;
     height: 16px;
     left: 453px;
     top: 32px;
@@ -48,11 +48,15 @@
     letter-spacing: 0.02em;
     text-align: left;
 
-    color: #2196F3;
+    color: black;
+    text-decoration: none;
 
 }
+.enlace-activo:hover {
+    color: #2196F3;
+    cursor: pointer;
+}
 .portafolio{
-
     margin-left: 50px;
 
     font-family: Roboto;
@@ -63,6 +67,11 @@
     text-align: left;
 
     color: #212121;
+    text-decoration: none;
+}
+.portafolio:hover {
+    color: #2196F3;
+    cursor: pointer;
 }
 .contactos{
 
@@ -76,8 +85,9 @@
     text-align: left;
 
     color: #212121;
-
+    text-decoration: none;
 }
+
 .correo-electronico{
     
     position: absolute;
@@ -93,11 +103,19 @@
     letter-spacing: 0.02em;
     text-align: left;
 
-    color: #2196F3;
+    color: black;
+
+    text-decoration: none;
 }
+.correo-electronico:hover {
+
+    color: #2196F3;
+    cursor: pointer;
+}
+
 .telefono{
     position: absolute;
-    width: 118px;
+    width: 120px;
     height: 16px;
     left: 1263px;
     top: 32px;
@@ -108,6 +126,13 @@
     line-height: 16px;
     letter-spacing: 0.02em;
     text-align: left;
+
+    color: black;
+    text-decoration: none;
+}
+.telefono:hover {
+    color: #2196F3;
+    cursor: pointer;
 }
 .titulo{
 
@@ -191,8 +216,7 @@
     /* left: 215px; */
     left: 215px;
     top: 991px;
-    
- 
+  
 }
 .a-que-nos-dedicamos-titulo{
     
@@ -250,7 +274,7 @@
 .nuestro-equipo-titulo{
 
     position: absolute;
-    width: 263px;
+    width: 265px;
     height: 42px;
     left: 669px;
     top: 94px;
@@ -323,11 +347,9 @@
     border-radius: 0px 0px 4px 4px;
 }
 .nombre{
-    position: absolute;
-    /* width: 97px; */
-    height: 19px;
-    left: 87px;
-    top: 290px;
+    position: relative;    
+    height: 19px;    
+    top: 20px;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -405,6 +427,9 @@
 }
 
 /* portfolio */
+.body-portfolio{
+    font-family: 'Roboto', sans-serif;
+}
 .button-port{
     font-family: Roboto;
     font-size: 16px;
@@ -536,4 +561,11 @@
 
     color: #FFFFFF;
 
+}
+/* contacts */
+.on-construction{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
