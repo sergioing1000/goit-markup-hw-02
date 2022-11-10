@@ -1,3 +1,8 @@
+:root{
+    --color-text: #2196F3;
+    --backg1-color: #2F303A;
+}
+
 
 .principal {
     
@@ -24,11 +29,11 @@
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
-    line-height: 31px;
+    line-height: 1.94em; /* 31px */
     letter-spacing: 0.03em;
     text-align: right;
     
-    color:  #2196F3;
+    color: var(--color-text);
     
 }
 
@@ -44,7 +49,7 @@
     font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
-    line-height: 16px;
+    line-height: 1em; /*16px;*/
     letter-spacing: 0.02em;
     text-align: left;
 
@@ -53,7 +58,7 @@
 
 }
 .enlace-activo:hover {
-    color: #2196F3;
+    color: var(--color-text);
     cursor: pointer;
 }
 .portafolio{
@@ -62,7 +67,7 @@
     font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
-    line-height: 16px;
+    line-height: 1em; /*16px;*/
     letter-spacing: 0.02em;
     text-align: left;
 
@@ -70,7 +75,7 @@
     text-decoration: none;
 }
 .portafolio:hover {
-    color: #2196F3;
+    color: var(--color-text);
     cursor: pointer;
 }
 .contactos{
@@ -80,12 +85,16 @@
     font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
-    line-height: 16px;
+    line-height: 1em; /*16px;*/
     letter-spacing: 0.02em;
     text-align: left;
 
     color: #212121;
     text-decoration: none;
+}
+.contactos:hover {
+    color: var(--color-text);
+    cursor: pointer;
 }
 
 .correo-electronico{
@@ -99,7 +108,7 @@
     font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
-    line-height: 16px;
+    line-height: 1em; /*16px;*/
     letter-spacing: 0.02em;
     text-align: left;
 
@@ -109,7 +118,7 @@
 }
 .correo-electronico:hover {
 
-    color: #2196F3;
+    color: var(--color-text);
     cursor: pointer;
 }
 
@@ -123,7 +132,7 @@
     font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
-    line-height: 16px;
+    line-height: 1em; /*16px;*/
     letter-spacing: 0.02em;
     text-align: left;
 
@@ -131,7 +140,7 @@
     text-decoration: none;
 }
 .telefono:hover {
-    color: #2196F3;
+    color: var(--color-text);
     cursor: pointer;
 }
 .titulo{
@@ -139,7 +148,7 @@
         height: 600px;
         width: 1600px;
         
-        background-color: #2F303A;
+        background-color: var(--backg1-color);
 
         display: flex;
         flex-direction: row-reverse;
@@ -148,7 +157,7 @@
 
 }
 .button {
-        background-color: #2196F3;;
+        background-color: var(--color-text);
 
         border: none;
         color: white;
@@ -162,23 +171,23 @@
 }
 .texto-titulo{
 
-        margin: 0;
-        position: absolute;
-        
-        height: 120px;
-        width: 696px;
-        left: 448px;
-        top: 280px;
-        border-radius: 50px;
+    margin: 0;
+    position: absolute;
+    
+    height: 120px;
+    width: 696px;
+    left: 448px;
+    top: 280px;
+    border-radius: 50px;
 
-        font-family: Roboto;
-        font-size: 44px;
-        font-weight: 900;
-        line-height: 60px;
-        letter-spacing: 0.06em;
-        text-align: center;
+    font-family: Roboto;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 3.75em; /*60px;*/
+    letter-spacing: 0.06em;
+    text-align: center;
 
-        color: #FFFFFF;
+    color: #FFFFFF;
 
 }
 .boton{  
@@ -197,7 +206,7 @@
     font-family: Roboto;
     font-size: 14px;
     font-weight: 700;
-    line-height: 16px;
+    line-height: 1em;  /*16px;*/
     letter-spacing: 0.03em;
     text-align: center;
 }
@@ -231,7 +240,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 2.63em; /*16px;*/
     text-align: center;
     letter-spacing: 0.03em;
 
@@ -283,7 +292,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 2.63em; /*42px;*/
     text-align: center;
     letter-spacing: 0.03em;
 
@@ -355,7 +364,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19em /*19px;*/
     /* identical to box height */
 
     text-align: center;
@@ -372,7 +381,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19em; /*19px;*/
 
     text-align: center;
     letter-spacing: 0.02em;
@@ -386,7 +395,7 @@
     left: 0px;
     top: 2158px;
 
-    background-color: #2F303A;
+    background-color: var(--backg1-color);
 }
 .estudio-web2 {
 
@@ -399,11 +408,11 @@
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
-    line-height: 31px;
+    line-height: 1.94em /*31px;*/
     letter-spacing: 0.03em;
     text-align: right;
 
-    color: #2196F3;
+    color: var(--color-text);
 
 }
 .direccion{
@@ -417,7 +426,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.5em: /*24px;*/
     /* or 171% */
 
     letter-spacing: 0.03em;
@@ -429,24 +438,25 @@
 /* portfolio */
 .body-portfolio{
     font-family: 'Roboto', sans-serif;
+    color: #212121;
 }
 .button-port{
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
-    line-height: 26px;
+    line-height: 1.63em; /*26px;*/
     letter-spacing: 0.03em;
     text-align: center;
 }
 
 .button-port:hover{
-    background-color: #2196F3;
+    background-color: var(--color-text);
     color: white;
     cursor: pointer;
     border: 3px solid black;
 }
 .button-port:focus {
-    background-color: #2196F3;
+    background-color: var(--color-text);
     color: white;
     cursor: pointer;
 }
@@ -500,7 +510,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2.25em; /*36px;*/
     letter-spacing: 0.06em;
     color: #212121;
     margin-left: 10px;
@@ -512,7 +522,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88em; /*30px;*/
     letter-spacing: 0.03em;
     color: #757575;
     margin-left: 10px;
@@ -524,7 +534,7 @@
     width: 1600px;
     height: 252px;
     left: 0px;
-    background-color: #2F303A;
+    background-color: var(--backg1-color);
 }
 .estudio-web2-portfolio{
 
@@ -536,11 +546,11 @@
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
-    line-height: 31px;
+    line-height: 1.94em; /*31px;*/
     letter-spacing: 0.03em;
     text-align: right;
 
-    color: #2196F3;
+    color: var(--color-text);
 
 }
 .direccion-portfolio {
@@ -554,7 +564,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.5em; /*24px;*/
     /* or 171% */
 
     letter-spacing: 0.03em;
